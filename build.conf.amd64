@@ -1,5 +1,5 @@
-OS_BASE_URL=https://github.com/rancher/os-base/releases/download/v2016.02/os-base_amd64.tar.xz
-OS_BASE_SHA1=1280eaf3a1f64d6581cc2131e7edc822d4ad5fc2
+OS_BASE_URL=https://github.com/tetatetit/os-base/releases/download/v2016.02-btrfs-luks-lvm2-nfs-iscsi/os-base_amd64.tar.xz
+OS_BASE_SHA1=44c17ebc991965b6ee2fca720a1fe4bf0ee7fa7c
 
 DEBIAN_BASE_IMAGE="debian:jessie"
 UBUNTU_BASE_IMAGE="ubuntu:14.04.4"

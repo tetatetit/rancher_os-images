@@ -4,7 +4,7 @@ set -e
 DIR=$(readlink /lib/modules/$(uname -r)/build)
 STAMP=${DIR}/.done
 VER=$(basename $DIR)
-URL=https://github.com/rancher/os-kernel/releases/download/${VER}/build.tar.gz
+URL=https://github.com/tetatetit/os-kernel/releases/download/${VER}/build.tar.gz
 
 if [ -e $STAMP ]; then
     echo Headers already installed in $DIR
