@@ -5,7 +5,7 @@ EXTRA_ARCHS='arm arm64'
 
 cd $(dirname $0)
 
-./scripts/build-images
+./scripts/build-images "$@"
 
 for arch in ${EXTRA_ARCHS}; do
     echo ''
